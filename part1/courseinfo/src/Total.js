@@ -1,7 +1,11 @@
 const Total = (props) => {
+    let total = 0;
+    props.parts.forEach(part => {
+        total += part.exercises;
+    }); 
     return (
-        <p>Number of exercises {props.exercises}</p>
+        <p>Number of exercises {total}</p>
     )
   }
-  
-  export default Total
+
+export default Total
