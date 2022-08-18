@@ -18,8 +18,8 @@ const remove = (id) => {
 }
 
 export default { 
-  getAll: getAll, 
-  create: create, 
-  update: update,
-  remove: remove,
+  getAll,
+  create,
+  update,
+  remove,
 }
